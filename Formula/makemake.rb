@@ -7,7 +7,7 @@ class Makemake < Formula
   sha256 "4f6c96b9f29fc2b2359dcb6bd3fe51bb0c1ed766a2cdff523bff9c01694c269a"
 
   def install
-    virtualenv_install_with_resources
+    virtualenv_install_with_resources(:using => "python@3")
   end
 
   test do

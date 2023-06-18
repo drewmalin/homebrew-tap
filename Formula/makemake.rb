@@ -6,7 +6,7 @@ class Makemake < Formula
   url "https://github.com/drewmalin/makemake/releases/download/0.0.1/makemake-0.0.1.tar.gz"
   sha256 "4f6c96b9f29fc2b2359dcb6bd3fe51bb0c1ed766a2cdff523bff9c01694c269a"
 
-  depends_on "python@3.x"
+  depends_on "python@3.8"
 
   def install
     virtualenv_install_with_resources
